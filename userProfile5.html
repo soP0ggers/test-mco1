@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MEMEDIA - Your Source of Laughs!</title>
+        <!-- Browser Icon -->
+        <link rel="shortcut icon" type="x-icon" href="icons/browserIcon.png">
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fredoka+One&family=Oswald&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body class="profile-body">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"><img class="navLogo" src="images/logo.png" alt="MEMEDIA Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="col-md-6 col-lg-7 col-11 mx-auto my-auto">
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Search..." aria-label="Search" size="100px">
+                            <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="navPfp" src="images/user5.jpg">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="userProfile5.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="accSettings.html">Account Settings</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="index.html">Logout</a></li>
+                            </ul>
+                        </li>
+                        <li id="navItem" class="nav-item">
+                            <a class="nav-link" aria-current="page" href="createPost.html"><i class="bi bi-pencil-square"></i>  Post</a>
+                        </li>
+                        <li id="navItem" class="nav-item">
+                            <a class="nav-link" href="aboutUs.html"><i class="bi bi-info-circle"></i>  About Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- User Profile -->
+        <div class="profile-container">
+            <div class="profile-header">
+                <div class="profile-img">
+                    <img src="images/user5.jpg" alt="popCat's Profile Picture">
+                </div>
+                <div class="profile-username">
+                    <h2>popCat</h2>
+                </div>
+                <a href="accSettings.html"><button class="profile-edit-btn">Edit Profile</button></a>
+            </div>
+           
+            <div class="profile-box-container">
+                <div class="profile-box">
+                    <h2>BIOGRAPHY </h2>
+                    <h3>Hello, I am PopCat! I like memes. My favorite meme is popcat :D Wanna be friends? </h3>
+                </div>
+                <br />
+                <!-- Posts -->
+                <div class="profile-post-header">
+                    <h1>POSTS</h1>
+                    <hr/>
+                </div>
+                <div class = "profile-post-container">
+                    <div class="post-box">
+                        <div class="post-header">
+                            <a href="viewPage5.html" class="post-caption"><h2>Eyo where can i buy these shoes [totally NOT a rick roll]</h2></a>
+                        </div>
+                        <div class="post-content-box">
+                            <img class="post-content" src="images/meme5.jpg" alt="Rick Roll Meme">
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-icons">
+                                <button name="upVote">
+                                    <i id="post-upv" class="bi bi-caret-up"></i>
+                                </button>
+                                <button name="downVote">
+                                    <i id="post-dv" class="bi bi-caret-down"></i>
+                                </button>
+                                <p id="post-vote-count">-11</p><p class="post-icon-indicator"> Vote/s</p> 
+                                <a class="post-comment" href="viewPage5.html"><button><i id="post-comment-icon" class="bi bi-chat-left-dots-fill"></i></button></a>
+                                <p id="post-comments-count">2</p><p class="post-icon-indicator"> Comment/s</p> 
+                                <button name="deletePost"><i id="post-comment-icon" class="bi bi-trash3-fill"></i></button>
+                                <p class="post-icon-indicator"> Delete</p> 
+                                <h3 class="post-date">March 19, 2022</h3>
+                            </div>
+                            <hr class="post-divider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Report Modal -->
+        <div id="report-modal" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title"><b>REPORT</b></h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h4>Why are you reporting this?</h4>
+                  <input id="report-inappropriate" type="checkbox">
+                  <label for="report-inappropriate">Inappropriate</label><br/>
+                  <input id="report-rude" type="checkbox">
+                  <label for="report-rude">Rude content</label><br/>
+                  <input id="report-spam" type="checkbox">
+                  <label for="report-spam">Spam</label><br/>
+                  <input id="report-false" type="checkbox">
+                  <label for="report-false">False Information</label><br/>
+                  <input id="report-sexual" type="checkbox">
+                  <label for="report-sexual">Sexual Content or Nudity</label><br/>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Report</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- Delete Modal -->
+        <div id="delete-modal" class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title"><b>DELETE CONTENT</b></h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <h5>Are you sure you want to delete this?</h5>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                  <button type="button" class="btn btn-primary">Yes</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>

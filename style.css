@@ -1,0 +1,1014 @@
+/* ========== NAVIGATION BAR ========== */
+
+/* Nav Bar - Base */
+.navbar{
+    position: sticky;
+}
+
+.navbar-expand-lg{
+    background: #9A8C98;
+    box-shadow: 0px 7px 13px #00000085;
+}
+
+/* Nav Bar - Items */
+#navItem{
+    margin-top: 6.5px;
+    margin-right: 7px;
+}
+
+#navItem a{
+    color: #22223B;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+#navItem a:hover{
+    color: #22223B;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-shadow: 0px 0px 15px #f1e3df;
+}
+
+.navLogo {
+    width: 180px;
+    float: left;
+    transition: all 0.3s;
+}
+
+.navLogo:hover{
+    width: 190px;
+    box-shadow: 0px 0px 30px #f1e3df;
+}
+
+.navPfp{
+    border-radius:100px;
+    margin-top: 1px;
+	height: 40px;
+	width: 40px;
+    transition: all 0.3s;
+}
+
+/* Nav Bar - Search */
+
+.navbar form button{
+    background-color: #22223B;
+    border-style: none;
+    color: white;
+}
+
+/* ==========  MODALS ========== */
+#report-modal, #delete-modal{
+    color: #22223B;
+}
+
+/* ==========  ABOUT US ========== */
+.aboutUs-body{
+    background-image: repeating-linear-gradient(135deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(45deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, rgb(34,34,59),rgb(34,34,59));
+    font-family: 'Oswald', sans-serif;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.aboutUs-main{
+    padding: 30px;
+}
+
+.aboutUs-main hr{
+    border-style: none;
+    background-color: white;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.aboutUs-info-container{
+    background-color: rgba(255, 255, 255, 0.151);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#aboutUs-info{
+    text-align: justify;
+    color: white;
+}
+
+.aboutUs-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #ddd;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 20px;
+    left: 15%;
+    top: 2%;
+    position: relative;
+}
+
+.aboutUs-title{
+    color: grey;
+    font-size: 18px;
+}
+
+.aboutUs-main h1{
+    margin-top: 15px;
+}
+
+.aboutUs-main a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.aboutUs-main h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #9A8C98;
+    text-align: center;
+}
+
+.aboutUs-card i{
+    margin-right: 7px;
+    transition: all 0.2s;
+}
+
+/* ========== REGISTRATION PAGE ========== */
+
+/* Reg Page - Body */
+.reg-body{
+    background-image: repeating-linear-gradient(45deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(15,16,24),rgb(34,34,59));
+    background-size: cover;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Reg Page - Form Container */
+.reg-box{
+    background-color: #4a4e6956;
+    border-radius: 58px 58px 58px 58px;
+    width: 350px;
+    height: 592px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.429);
+}
+
+/* Reg Page - Form Elements */
+.reg-h1{
+    color: #ffffff;
+    font-family: 'Fredoka One', cursive;
+    margin-top: -5%;
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 3px #0000005a;
+}
+
+.reg-input{
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 5%;
+    height: 35px;
+    width: 80%;
+}
+
+.reg-label{
+    color:rgb(255, 255, 255);
+    margin-bottom: 1%;
+}
+
+.reg-logo{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 9px 11px rgba(0, 0, 0, 0.429);
+}
+
+.reg-redirect{
+    color: #ffffff;
+    margin-top: 8%;
+}
+
+.reg-submit-btn{
+    background-color: #C9ADA7;
+    border: none;
+    border-radius: 20px;
+    margin-top: 6%;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.reg-submit-btn:hover{
+    opacity: 50%;
+}
+
+/* ========== LOGIN PAGE ========== */
+
+/* Login Page - Body */
+.login-body{
+    background-image: repeating-linear-gradient(45deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(207,0%,63%,0.05) 0px, hsla(207,0%,63%,0.05) 1px,transparent 1px, transparent 11px,hsla(207,0%,63%,0.05) 11px, hsla(207,0%,63%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(15,16,24),rgb(34,34,59));
+    background-size: cover;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Login Page - Form Containers */
+.login-container{
+    background-color: #4a4e6956;
+    border-radius: 58px 58px 58px 58px;
+    width: 400px;
+    height: 450px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.429);
+}
+
+.login-h1{
+    color: #ffffff;
+    font-family: 'Fredoka One', cursive;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-shadow: 5px 5px 3px #0000005a;
+}
+
+.login-logo{
+    display: block;
+    margin-top: 5.5%;
+    margin-bottom: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 9px 11px rgba(0, 0, 0, 0.429);
+}
+
+/* Login Page - Input Fields */
+.login-input {
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 5%;
+    height: 35px;
+    width: 70%;
+}
+
+.login-btn{
+    background-color: #C9ADA7;
+    border: none;
+    border-radius: 20px;
+    margin-top: 3%;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 100px;
+}
+
+.login-btn:hover{
+    opacity: 50%;
+}
+
+.login-label{
+    color:rgb(255, 255, 255);
+}
+
+.login-redirect{
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+/* ========== HOME PAGE ========== */
+
+/* Home Page - Body */
+.home-body{
+    background-image: repeating-linear-gradient(135deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(45deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, rgb(34,34,59),rgb(34,34,59));
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.home-h1-containter{
+    border-style: solid;
+    border-radius: 10px;
+    color: #9A8C98;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 550px;
+    transition: all 0.1s;
+    box-shadow: 0px 3px 10px #00000089;
+}
+
+.home-h1-containter:hover{
+    color: #ffffff;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.home-h1-containter a{
+    color: #9A8C98;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.home-h1-containter a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.home-h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 5px 8px 5px #01010463;
+    transition: all 0.1s;
+}
+
+.home-h1:hover{
+    text-shadow: 0px 0px 10px #ffffff;
+}
+
+/* Home Page - Post Container */
+.post-container{
+    width: 550px;
+    
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+/* Home Page - Post - Header */
+.post-header{
+    background-color: #8c7e89;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    transition: all 0.2s;
+}
+
+.post-header:hover{
+    background-color: #e6e6e6;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+.post-caption{
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.post-caption:hover{
+    color: #0099ff;
+    text-decoration: none;
+}
+
+.post-user{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.post-user:hover{
+    color: #8c7e89;
+    text-decoration: none;
+}
+
+.post-container h2{
+    font-size: 19px;
+}
+
+/* Home Page - Post - Content */
+.post-content{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+/* Home Page - Post - Footer */
+.post-footer button{
+    background-color: #8c7e89;
+    border: none;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-right: 3px;
+    transition: all 0.2s;
+}
+
+.post-footer button:hover{
+    background-color: #ffffff;
+    color: #22223B;
+    border: none;
+}
+
+/* Home Page - Post - Footer - Icons */
+.post-icons p{
+    display: inline;
+}
+
+.post-icon-indicator{
+    margin-right: 5px;
+}
+
+#post-delete{
+    color: white;
+}
+
+#post-delete:hover{
+    color: #22223B;
+}
+
+
+#post-upv, #post-dv, #post-comment-icon, #post-delete, #post-report{
+    color: #dbc8c3;
+    transition: all 0.2s;
+}
+
+#post-upv:hover, #post-dv:hover, #post-comment-icon:hover, #post-delete:hover, #post-report:hover{
+    color: #22223B;
+}
+
+.post-footer-sub{
+   text-align: right;
+}
+
+.post-footer h3{
+    margin-top: 0px;
+    font-size: 12px;
+    float: right;
+}
+
+/* Home Page - Post - Poster Link */
+.post-user-link{
+    margin-top: 13px;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+}
+
+.post-user-link a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.post-footer h3{
+    margin-top: 13px;
+}
+
+.post-date{
+    float: right;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.post-date:hover{
+    color: #8c7e89;
+    text-decoration: none;
+}
+
+/* Home Page - Post - Separator */
+.post-divider{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+/* ========== ACCOUNT SETTINGS PAGE ========== */
+
+/* Account Settings - Body */
+.accSet-body{
+    background-image: radial-gradient(circle at center center, transparent,rgb(34,34,59)),repeating-linear-gradient(135deg, rgb(34,34,59) 0px, rgb(34,34,59) 2px,transparent 2px, transparent 10px,rgb(34,34,59) 10px, rgb(34,34,59) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(29,24,36) 0px, rgb(29,24,36) 4px,transparent 4px, transparent 8px),linear-gradient(90deg, rgb(34,34,59),rgb(34,34,59));
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Account Settings - Field Form */
+.accSet-form-container{
+    display:flex; 
+    flex-direction: column; 
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 130px;
+    padding: 5px;
+    width: 68%;
+}
+
+.accSet-box{
+    position: relative;
+    display:flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.accSet-header{
+    background-color: #9A8C98;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 30px;
+}
+
+.accSet-header h2, .accSet-header p{
+    color: #2b2d3d;
+    text-align: center;    
+    font-weight: bolder;
+}
+
+.accSet-field{
+    background-color: #C9ADA7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    padding: 20px;
+    flex: 2;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.accSet-field form{
+    text-align: center;
+    color: #2b2d3d;
+}
+
+.accSet-label{
+    margin-bottom: 1px;
+}
+
+/* Account Settings - Input Fields */
+.accSet-input1{
+    height: 40px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.accSet-input2{
+    margin-left: 100px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.accSet-input3{
+    border-radius: 10px;
+    resize: none;
+}
+
+.accSet-submit{
+    border-style: none;
+    border-radius: 10px;
+    padding: 7px;
+    transition: all 0.2s;
+}
+
+.accSet-submit:hover{
+    opacity: 50%;
+}
+
+/* Account Settings - Side Navigation */
+.accSet-side{
+    font-family: 'Fredoka One', cursive;
+    float:left;
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 60px;
+    text-align: center;
+    width: 300px;
+}
+
+.accSet-side button{
+    background-color: #9A8C98;
+    border: none;
+    border-radius: 10px;
+    color: #22223B;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.accSet-side button:hover{
+    background-color: #22223B;
+    color: #9A8C98;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+.accSet-side ul li{
+    text-align: left;
+}
+
+.accSet-side a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.accSet-side a:hover{
+    color: #C9ADA7;
+    text-decoration: none;
+}
+
+/* ========== CREATE POST PAGE ========== */
+
+/* Create Post - Body*/
+.create-body{
+    background-image: repeating-linear-gradient(135deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),repeating-linear-gradient(45deg, hsla(66,0%,33%,0.09) 0px, hsla(66,0%,33%,0.09) 1px,transparent 1px, transparent 11px),linear-gradient(90deg, rgb(34,34,59),rgb(34,34,59));
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.create-header{
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.create-header h1{
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 3px 3px 5px #000000a7;
+}
+
+/* Create Post - Form Container */
+.create-form-container{
+    background-color: #8c7e89;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 750px;
+}
+
+/* Create Post - Post Caption */
+.create-post-title{
+    margin-bottom: -15px;
+}
+
+.create-post-title textarea{
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #22223B;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 15px;
+    resize: none;
+}
+
+/* Create Post - Post Content */
+.create-post-prompt{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.create-post-upload input[type=file]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 300px;
+}
+
+#create-post-content{
+    background-color: #C9ADA7;
+    background-image: url(icons/no-file.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #22223B;
+    border-width: 5px;
+    height: 500px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Create Post - Submit Button */
+#create-post-upload-btn{
+    background-color: #9A8C98;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Fredoka One', cursive;
+    height: 50px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+    transition: all 0.2s;
+}
+
+#create-post-upload-btn:hover{
+    background: white;
+    color: #22223B;
+}
+
+/* ========== USER PROFILE PAGE ========== */
+
+/* User Profile - Body */
+.profile-body{
+    background-image: radial-gradient(circle at center center, transparent,rgb(34,34,59)),repeating-linear-gradient(135deg, rgb(34,34,59) 0px, rgb(34,34,59) 2px,transparent 2px, transparent 10px,rgb(34,34,59) 10px, rgb(34,34,59) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(29,24,36) 0px, rgb(29,24,36) 4px,transparent 4px, transparent 8px),linear-gradient(90deg, rgb(34,34,59),rgb(34,34,59));
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.profile-container {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+.profile-header {
+    padding: 50px;
+    background-image: url(../images/header.jpg);
+    border-radius: 10px;
+    width: 85%;
+    display: flex;
+    left: 7%;
+    height: 190px;
+    position: relative;
+}
+
+.profile-header button{
+    transition: all 0.2s;
+}
+
+.profile-header button:hover{
+    opacity: 50%;
+}
+
+.profile-img {
+    float: left;
+    width: 340px;
+    height: 200px;
+}
+
+.profile-img img{
+    box-shadow: 3px 5px 10px #01010583;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.profile-username {
+    margin-left: -110px;
+    padding-top: 60px;
+}
+
+.profile-username h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.profile-box-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.profile-box {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    background: #9A8C98;
+    border-radius: 10px;
+    width: 65%;
+    left: 27%;
+    position: relative;
+}
+
+.profile-box h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #040720;
+}
+
+.profile-box h3 {
+    font-size: 1.2rem;
+    color: #040720;
+    position: relative;
+    
+}
+
+.profile-edit-btn {
+    background-color: #C9ADA7;
+    border-style: none;
+    border-radius: 10px;
+    color: #151E3D;
+    height: 30px;
+    pointer-events: all;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+/* User Profile - Post Header */
+.profile-post-header{
+    width: 65%;
+    margin-top: 8px;
+    margin-left: 377px;
+}
+
+/* User Profile - Post Containers */
+.profile-post-container{
+    width: 550px;
+    
+    align-items: center;
+    margin-right: auto;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.profile-post-container h2{
+    font-size: 19px;
+}
+
+/* ========== VIEW POST PAGE ========== */
+
+/* View - Body */
+.view-body{
+    background-image: radial-gradient(circle at center center, transparent,rgb(34,34,59)),repeating-linear-gradient(135deg, rgb(34,34,59) 0px, rgb(34,34,59) 2px,transparent 2px, transparent 10px,rgb(34,34,59) 10px, rgb(34,34,59) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(29,24,36) 0px, rgb(29,24,36) 4px,transparent 4px, transparent 8px),linear-gradient(90deg, rgb(34,34,59),rgb(34,34,59));
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.view-post-container{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.view-post-user{
+    position: relative;
+    display:flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.view-post-user-img{
+    background-color: #9A8C98;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 30px;
+}
+
+.view-post-user-img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 10px #0000007e;
+}
+
+.view-post-user-name{
+    background-color: #C9ADA7;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    padding: 10px;
+    flex: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.view-post-user-name a{
+    color: #22223B;
+    display: inline;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.view-post-user-name p{
+    color: #474749;
+    display: inline;
+    text-decoration: none;
+}
+
+.view-post-user-name hr{
+    color: #22223B;
+    opacity: 100%;
+    border-width: 2px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+
+.view-post-date{
+    float: right;
+    margin-top: 45px;
+}
+
+.view-post-stats button{
+    background-color: #8c7e89;
+    border: none;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-right: 3px;
+    transition: all 0.2s;
+}
+
+.view-post-stats button:hover{
+    background-color: #ffffff;
+    color: #22223B;
+    border: none;
+}
+
+.view-post-stats p{
+    display: inline;
+}
+
+/* View - Comment Section */
+.view-post-comment-stats h2{
+    font-size: 23px;
+}
+
+.view-post-comment-user{
+    margin-bottom: 13px;
+}
+
+.view-post-comment-name{
+    background-color: #C9ADA7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.view-post-comment-name a{
+    color: #22223B;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.view-post-comment-name a:hover{
+    color: #0099ff;
+}
+
+.view-post-comment-options{
+    float: right;
+    margin-right: 10px;
+}
+
+.view-post-comment-options button{
+    border-radius: 10px;
+    border-style: none;
+    color: #22223B;
+    transition: all 0.2s;
+}
+
+.view-post-comment-options button:hover{
+    opacity: 50%;
+}
+
+.view-post-comment-content{
+    background-color: #dbd2d0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0.25px;
+}
+
+.view-post-comment-content p{
+    color: #040720;
+    font-size: 15px;
+}
+
+.view-post-comment-date{
+    color: #acacac;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 3px;
+}
